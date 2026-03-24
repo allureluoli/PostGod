@@ -29,16 +29,20 @@
 ## 📦 项目结构
 
 
-📦 项目结构
+```text
+
 PostGod/
 ├── src/
-│   ├── main.rs          # 主程序（UI + 逻辑）
-│   ├── request_send.rs  # 请求发送模块
-│   └── chinese.rs       # 中文字体相关
+│ ├── main.rs # 主程序（UI + 逻辑）
+│ ├── request_send.rs # 请求发送模块
+│ └── chinese.rs # 中文字体相关
 ├── assets/
-│   └── AaManHuaJia-2.ttf  # 中文字体
+│ └── AaManHuaJia-2.ttf # 中文字体
 ├── Cargo.toml
 └── README.md
+
+```
+
 
 代码核心基于 egui UI 框架构建：
 
